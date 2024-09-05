@@ -1,0 +1,30 @@
+{
+  "name": "@sasibhumaraju/react-toast",
+  "version": "1.0.0",
+  "description": "A simple and customizable React toast notification UI component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasibhumaraju/react-toast.git"
+  },
+  "keywords": [
+    "react",
+    "toast",
+    "react-toast",
+    "notification"
+  ],
+  "author": "sasibhumaraju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasibhumaraju/react-toast/issues"
+  },
+  "homepage": "hhttps://github.com/sasibhumaraju/react-toast#readme",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
