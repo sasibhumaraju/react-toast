@@ -17,6 +17,7 @@ You can install the package via npm:
 
 ```bash
 npm install @sasibhumaraju/react-toast
+```
 
 or yarn:
 
