@@ -2,8 +2,6 @@
 node_modules
 
 # Exclude build files and temporary files
-dist/
-build/
 coverage/
 .tmp/
 src/

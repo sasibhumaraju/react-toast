@@ -31,7 +31,6 @@ Import the components and start using toast notifications in your React applicat
 
 ```jsx
 import { ToastsContainer, Toast } from '@sasibhumaraju/react-toast';
-import '@sasibhumaraju/react-toast/dist/index.css'; // Import necessary styles
 
 const App = () => {
 
@@ -120,5 +119,3 @@ This project is licensed under the MIT License.
 
 ## Author 🤵
 - [@sasibhumaraju](https://www.github.com/sasibhumaraju)
-
-

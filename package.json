@@ -11,11 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+xxx.git"
+    "url": "git+https://github.com/sasibhumaraju/react-toast.git"
   },
-  "homepage": "https://github.com/sasibhumaraju/create-react-component-library?tab=readme-ov-file",
+  "homepage": "https://github.com/sasibhumaraju/react-toast?tab=readme-ov-file",
   "author": "@sasibhumaraju",
   "license": "MIT",
+  "keywords": ["react-toast", "toast", "react"],
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.25.4",
     "@babel/preset-react": "^7.24.7",
