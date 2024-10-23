@@ -1,0 +1,11 @@
+.toast_container {
+    transition: height 0.13s;
+    transition: all 0.13s;
+    width: 310px;
+}
+
+@media only screen and ( max-width: 310px ) {
+    .toast_container {
+        width: calc(100vw);
+    }   
+}

@@ -1,0 +1,81 @@
+.left_in {
+   animation-name: lin;
+}
+
+.right_in {
+    animation-name: rin;
+}
+
+.top_in {
+    animation-name: tin;
+}
+
+.bottom_in {
+    animation-name: bin;
+}
+
+.left_out {
+    animation-name: lout;
+}
+
+.right_out {
+    animation-name: rout;
+}
+
+.top_out {
+    animation-name: tout;
+}
+.bottom_out {
+    animation-name: bout;
+}
+
+.default {
+    width: max-content;
+    height: max-content;
+    transition: all ease-in;
+    /* background-color: green; */
+    animation-duration: 0.15s;
+    animation-timing-function: ease-in-out;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+   
+}
+
+@keyframes lin {
+    from { transform: translateX(-100%);}
+    to   { transform: translateX(0%);}
+}
+
+@keyframes rin {
+    from { transform: translateX(100%);}
+    to   { transform: translateX(0%);}
+}
+
+@keyframes tin {
+    from { transform: translateY(-100%);}
+    to   { transform: translateY(0%);}
+}
+
+@keyframes bin {
+    from { transform: translateY(100%);}
+    to   { transform: translateY(0%);}
+}
+
+@keyframes tout {
+    from { transform: translateY(0%);}
+    to   { transform: translateY(-100%);}
+}
+
+@keyframes bout {
+    from { transform: translateY(0%);}
+    to   { transform: translateY(100%);}
+}
+
+@keyframes rout {
+    from { transform: translateX(0%);}
+    to   { transform: translateX(100%);}
+}
+
+@keyframes lout {
+    from { transform: translateX(0%);}
+    to   { transform: translateX(-100%);}
+}
