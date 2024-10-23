@@ -108,8 +108,7 @@ Toast.update({ tid: 1, type: 'warning', message: 'This is an updated message' })
 
 ### Removing Toasts
 
-- **`Toast.delete(tid)`**: Mark a toast as inactive.
-- **`Toast.deletePermanently(tid)`**: Remove the toast from the list completely.
+- **`Toast.delete(tid)`**: Remove the toast from the list completely.
 
 ## Contributing
 
